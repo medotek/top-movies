@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import "../../styles.css";
+import "./Films.css";
 
 
 export function Films(props) {
@@ -14,9 +14,6 @@ export function Films(props) {
                 />
                 <div className="container">
                     <h4>{props.title}</h4>
-                    <p>
-                        {props.year}, {props.imDbRating}
-                    </p>
                 </div>
             </div>
         </div>

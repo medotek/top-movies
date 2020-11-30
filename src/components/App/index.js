@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "../../styles.css"
 import "./App.css";
 import films from "../../films.json";
 import { Films } from '../Films'
