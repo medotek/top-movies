@@ -9,9 +9,6 @@ import Row from 'react-bootstrap/Row'
 
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-  }
 
   render() {
     return (
