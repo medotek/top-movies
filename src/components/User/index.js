@@ -27,4 +27,7 @@ User.propTypes = {
     rank : PropTypes.string,
     title : PropTypes.string,
     year : PropTypes.string,
+    image : PropTypes.string,
+    crew : PropTypes.string,
+    imDbRating : PropTypes.string
 };
