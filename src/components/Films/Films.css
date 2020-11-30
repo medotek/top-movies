@@ -1,0 +1,11 @@
+.card {
+    width:200px;
+    height:auto;
+    margin:0 auto;
+}
+.card img {
+    border-radius: 6px;
+}
+h4 {
+    color: #eee;
+}

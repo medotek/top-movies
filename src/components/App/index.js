@@ -3,9 +3,10 @@ import "../../styles.css"
 import "./App.css";
 import films from "../../films.json";
 import { Films } from '../Films';
-import  Container from 'react-bootstrap/Container'
+import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+
+
 
 class App extends Component {
   constructor(props) {
@@ -15,18 +16,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Container>
+        <Container fluid>
           <Row>
-            <Col>
-              <div className="cards">
-                {films.items.map((film, index) => {
-                  return <Films {...film} key={index} />;
-                })}
-              </div>
-            </Col>
+            {films.items.map((film, index) => {
+              return <Films {...film} key={index} />;
+            })}
           </Row>
         </Container>
-      </div>
+      </div >
     );
   }
 }
